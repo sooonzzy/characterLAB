@@ -168,9 +168,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '코미디', sub: '휴먼' },
         description: '약하고 찌질한 모습 속에서도 특유의 리더십이 돋보이는 고등학생.',
-        frontImage: './images/장병태f.png',
-        backImage: './images/장병태b.png',
-        frameImage: './frames/장병태.png'
+        frontImage: './images/jangbyuntae_a.png',
+        backImage: './images/jangbyuntae_b.png',
+        frameImage: './frames/jangbyuntae.png'
     },
 
     '<엽기인 녀>, 그녀': {
@@ -178,9 +178,9 @@ const characters = {
         tags: ['독립적인', '무던한', '시니컬한'],
         genres: { main: '코미디', sub: '로맨스' },
         description: '툭 하면 얼굴에 펀치를 날리고, 죽을래?라며 박을 일삼는, 말그대로 엽기적인 대학생.',
-        frontImage: './images/그녀f.png',
-        backImage: './images/그녀b.png',
-        frameImage: './frames/그녀.png'
+        frontImage: './images/she_a.png',
+        backImage: './images/she_b.png',
+        frameImage: './frames/she.png'
     },
 
     '<열혈사제>, 김해일': {
@@ -188,9 +188,9 @@ const characters = {
         tags: ['독립적인', '무던한', '시니컬한'],
         genres: { main: '코미디', sub: '액션/모험' },
         description: '꼭지가 열리면 통제불능. 인간과 세상에 대한 분석력, 통찰력, 판단력이 매우 날카롭고 정확한 (구) 국정원 요원, (현) 가톨릭 수도사제.',
-        frontImage: './images/김해일f.png',
-        backImage: './images/김해일b.png',
-        frameImage: './frames/김해일.png'
+        frontImage: './images/kimhaeil_a.png',
+        backImage: './images/kimhaeil_b.png',
+        frameImage: './frames/kimhaeil.png'
     },
 
     '<슬기로운 의사생활>, 이익준': {
@@ -198,9 +198,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '휴먼', sub: '직업물' },
         description: '못 하는 게 없는 만능맨. 열등감과 컴플렉스, 선입견이 전혀 없는, 인격적으로 완성된 간담췌과 부교수.',
-        frontImage: './images/이익준f.png',
-        backImage: './images/이익준b.png',
-        frameImage: './frames/이익준.png'
+        frontImage: './images/leeikjoon_a.png',
+        backImage: './images/leeikjoon_b.png',
+        frameImage: './frames/leeikjoon.png'
     },
 
     '<정신병동에도 아침이 와요>, 정다은': {
@@ -208,9 +208,9 @@ const characters = {
         tags: ['관계지향적인', '예민한', '다정한'],
         genres: { main: '휴먼', sub: '휴먼' },
         description: '따뜻한 마음과 친절로 환자들에게 큰 위로를 주는 명신대병원 정신건강의학과 간호사.',
-        frontImage: './images/정다은f.png',
-        backImage: './images/정다은b.png',
-        frameImage: './frames/정다은.png'
+        frontImage: './images/jungdaeun_a.png',
+        backImage: './images/jungdaeun_b.png',
+        frameImage: './frames/jungdaeun.png'
     },
 
     '<닥터 슬럼프>, 여정우': {
@@ -218,9 +218,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '휴먼', sub: '로맨스' },
         description: '실력과 얼굴, 위트를 모두 갖춰 인기란 것이 폭발한 성형외과 의사.',
-        frontImage: './images/여정우f.png',
-        backImage: './images/여정우b.png',
-        frameImage: './frames/여정우.png'
+        frontImage: './images/yeojungwoo_a.png',
+        backImage: './images/yeojungwoo_b.png',
+        frameImage: './frames/yeojungwoo.png'
     },
 
     '<런 온>, 오미주': {
@@ -228,9 +228,9 @@ const characters = {
         tags: ['독립적인', '예민한', '다정한'],
         genres: { main: '휴먼', sub: '로맨스' },
         description: '옳다고 생각하는 일에 거침없이 동하고 할 말은 꼭 하는 영 번역가.',
-        frontImage: './images/오미주f.png',
-        backImage: './images/오미주b.png',
-        frameImage: './frames/오미주.png'
+        frontImage: './images/ohmijoo_a.png',
+        backImage: './images/ohmijoo_b.png',
+        frameImage: './frames/ohmijoo.png'
     },
 
     '<멜로가 체질>, 손범수': {
@@ -238,9 +238,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '휴먼', sub: '코미디' },
         description: '은은한 똘끼가 있다. 방송가에서 성공 보증수표로 불리는 스타 드라마 피디.',
-        frontImage: './images/손범수f.png',
-        backImage: './images/손범수b.png',
-        frameImage: './frames/손범수.png'
+        frontImage: './images/sonbeomsu_a.png',
+        backImage: './images/sonbeomsu_b.png',
+        frameImage: './frames/sonbeomsu.png'
     },
 
     '<라켓 소년단>, 한세윤': {
@@ -248,9 +248,9 @@ const characters = {
         tags: ['독립적인', '예민한', '니컬한'],
         genres: { main: '휴먼', sub: '코미디' },
         description: '예민한 것이 많은 최연소 배드민턴 국가대표 선수이자 고등학생.',
-        frontImage: './images/한세윤f.png',
-        backImage: './images/한세윤b.png',
-        frameImage: './frames/한세윤.png'
+        frontImage: './images/hanseyoon_a.png',
+        backImage: './images/hanseyoon_b.png',
+        frameImage: './frames/hanseyoon.png'
     },
 
     '<반짝이는 워터멜론>, 하은결': {
