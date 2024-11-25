@@ -1233,16 +1233,15 @@ function createCharacterCard(characterName, container) {
 
                     // 이름 (주황색)
                     ctx.fillStyle = '#FF5C2C';
-                    ctx.fillText(globalUserName, canvasSize / 2 - ctx.measureText('님의').width / 2, firstLineY);
+                    ctx.fillText(globalUserName, canvasSize / 2 - ctx.measureText('님의').width / 2, firstLineY + 20);
 
                     // '님의' (흰색)
                     ctx.fillStyle = 'white';
-                    ctx.fillText('님의', canvasSize / 2 + nameWidth / 2, firstLineY);
+                    ctx.fillText('님의', canvasSize / 2 + nameWidth / 2, firstLineY + 20);
 
                     // 두 번째 줄
                     ctx.fillStyle = 'white';
-                    ctx.fillText('캐릭터 프로필 카드', canvasSize / 2, firstLineY + 60);
-                    // ... existing code ...
+                    ctx.fillText('캐릭터 프로필 카드', canvasSize / 2, firstLineY + 60 + 20);
 
                     // 카드 시작 x 위치 계산 (중앙 정렬)
                     const totalCardsWidth = (cardWidth * 2) + padding;
