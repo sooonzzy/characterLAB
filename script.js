@@ -26,7 +26,7 @@ const characters = {
         genres: { main: '로맨스', sub: '코미디' },
         description: '교과서보다는 하이틴 로맨스 소설에, 성적보다는 외모에 관심 많은 유쾌 발랄 낭랑 18세 소녀.',
         frontImage: '/images/sungdeokseon_a.png',
-        backImage: './images/sungdeokseon_b.png',
+        backImage: '/images/sungdeokseon_b.png',
         frameImage: '/frames/sungdeokseon_f.png'
     },
 
@@ -95,9 +95,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '회/빙/환', sub: '판타지' },
         description: '명석한 두뇌와 집요한 승부 근성을 가진 진양철 회장의 막내 손자.',
-        frontImage: './images/jindojoon_a.png',
-        backImage: './images/jindojoon_b.png',
-        frameImage: './frames/jindojoon_f.png'
+        frontImage: '/images/jindojoon_a.png',
+        backImage: '/images/jindojoon_b.png',
+        frameImage: '/frames/jindojoon_f.png'
     },
 
     '<어게인 마이 라이프>, 김희아': {
