@@ -118,9 +118,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '회/빙/환', sub: '로맨스' },
         description: '눈동자에 많은 생각이 서려 있는 쓸쓸한 눈빛. 마음속은 아직도 소년인 채로 상처 속에 머물러있는 호텔 전략기획팀 전무.',
-        frontImage: './images/문서하f.png',
-        backImage: './images/문서하b.png',
-        frameImage: './frames/문서하.png'
+        frontImage: './images/moonseoha_a.png',
+        backImage: './images/moonseoha_b.png',
+        frameImage: './frames/moonseoha.png'
     },
 
     '<18 어게인>, 고우영': {
@@ -128,9 +128,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '시니컬한'],
         genres: { main: '회/빙/환', sub: '판타지' },
         description: '까칠데 찌질한 성격을 가졌다. 고등학교 시절 농구부로 최고의 인기를 누렸지만 모든 것을 내려놓고 생업에 뛰어들었다.',
-        frontImage: './images/고우영f.png',
-        backImage: './images/고우영b.png',
-        frameImage: './frames/고우영.png'
+        frontImage: './images/gowooyoung_a.png',
+        backImage: './images/gowooyoung_b.png',
+        frameImage: './frames/gowooyoung.png'
     },
 
     '<브루클린 나인나인>, 제이크 페랄타': {
@@ -138,9 +138,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '코미디', sub: '직업물' },
         description: '장난기 넘치지만 능력도 좋은 뉴욕 브루클린의 99번 관할서 경찰.',
-        frontImage: './images/제이크f.png',
-        backImage: './images/제이크b.png',
-        frameImage: './frames/제이크.png'
+        frontImage: './images/jake_a.png',
+        backImage: './images/jake_b.png',
+        frameImage: './frames/jake.png'
     },
 
     '<힘쎈여자 강남순>, 강남순': {
@@ -148,9 +148,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '코미디', sub: '판타지' },
         description: '씩씩하고, 용감하고, 당돌하며, 순수하다. 동시에 와일드한 매력이 있는 힘쎈여자.',
-        frontImage: './images/강남순f.png',
-        backImage: './images/강남순b.png',
-        frameImage: './frames/강남순.png'
+        frontImage: './images/gangnamsun_a.png',
+        backImage: './images/gangnamsun_b.png',
+        frameImage: './frames/gangnamsun.png'
     },
 
     '<빅뱅이론>, 셸든 쿠퍼': {
@@ -158,9 +158,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '코미디', sub: '휴먼' },
         description: '천재성을 가지고 있지만 사회성은 전혀 없는 이론물리학자.',
-        frontImage: './images/셸든f.png',
-        backImage: './images/셸든b.png',
-        frameImage: './frames/셸든.png'
+        frontImage: './images/sheldon_a.png',
+        backImage: './images/sheldon_b.png',
+        frameImage: './frames/sheldon.png'
     },
 
     '<소년시대>, 장병태': {
