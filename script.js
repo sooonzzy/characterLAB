@@ -620,6 +620,10 @@ function recommendCharacters() {
     characterNameDiv.style.textAlign = 'center';
     resultContainer.insertBefore(characterNameDiv, characterList);
 
+    // 카드 생성 후 버튼 추가
+    const cardContainer = document.createElement('div');
+    cardContainer.style.position = 'relative'; // 카드 컨테이너의 위치를 상대적으로 설정
+
     // 3D 카드 생성 (80% 크기)
     createCharacterCard(recommendedCharacter, characterList);
 
@@ -962,8 +966,7 @@ function createCharacterCard(characterName, container) {
     selfieButton.style.cssText = `
         position: absolute;
         bottom: 20px;
-        left: calc(50% - 80px); // 왼쪽으로 이동
-        transform: translateX(-50%);
+        left: 20px; // 카드의 왼쪽 아래에 배치
         padding: 10px 20px;
         background-color: #FF5C2C; // 다시 시작 버튼과 동일한 색상
         color: white;
@@ -974,6 +977,11 @@ function createCharacterCard(characterName, container) {
         z-index: 20;
         transition: all 0.3s ease;
     `;
+
+// 카드와 버튼을 카드 컨테이너에 추가
+cardContainer.appendChild(card);
+cardContainer.appendChild(selfieButton);
+container.appendChild(cardContainer);
 
     // 셀카 기능 구현
     selfieButton.addEventListener('click', async (e) => {
