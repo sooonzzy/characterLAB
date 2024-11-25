@@ -622,6 +622,10 @@ function recommendCharacters() {
 
     // 3D 카드 생성 (80% 크기)
     createCharacterCard(recommendedCharacter, characterList);
+
+    // 다시 시작 버튼
+    const restartButton = document.querySelector('#result button');
+    restartButton.style.marginTop = '30px';
 }
 
 // 카드 앞면 생성 함수 수정
@@ -970,30 +974,6 @@ function createCharacterCard(characterName, container) {
         z-index: 20;
         transition: all 0.3s ease;
     `;
-
-    // 다시 시작 버튼 추가
-    const restartButton = document.createElement('button');
-    restartButton.textContent = '다시 시작'; // 버튼 텍스트
-    restartButton.style.cssText = `
-        position: absolute;
-        bottom: 20px;
-        left: calc(50% + 80px); // 오른쪽으로 이동
-        transform: translateX(-50%);
-        padding: 10px 20px;
-        background-color: #FF5C2C; // 동일한 색상
-        color: white;
-        border: none;
-        border-radius: 20px;
-        cursor: pointer;
-        font-weight: bold;
-        z-index: 20;
-        transition: all 0.3s ease;
-    `;
-
-    // 버튼을 DOM에 추가
-    const resultContainer = document.getElementById('result');
-    resultContainer.appendChild(selfieButton);
-    resultContainer.appendChild(restartButton);
 
     // 셀카 기능 구현
     selfieButton.addEventListener('click', async (e) => {
