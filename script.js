@@ -608,21 +608,16 @@ function recommendCharacters() {
 
     // 제목에 사용자 이름 색상 적용
     const title = document.querySelector('#result h2');
-    title.innerHTML = `<span style="color: #FF5C2C">${userName}</span>님은`;
+    title.innerHTML = `<span style="color: #FF5C2C">${userName}</span>님과 잘 맞는 캐릭터는`;
     title.style.marginBottom = '10px';
 
     // 캐릭터 이름을 별도의 div로 생성
     const characterNameDiv = document.createElement('div');
     characterNameDiv.textContent = recommendedCharacter;
     characterNameDiv.style.fontSize = '24px';
-    characterNameDiv.style.fontWdight = 'semi-bold';
-    characterNameDiv.style.marginBottom = '10px';
+    characterNameDiv.style.marginBottom = '30px';
     characterNameDiv.style.textAlign = 'center';
     resultContainer.insertBefore(characterNameDiv, characterList);
-
-    // 카드 생성 후 버튼 추가
-    const cardContainer = document.createElement('div');
-    cardContainer.style.position = 'relative'; // 카드 컨테이너의 위치를 상대적으로 설정
 
     // 3D 카드 생성 (80% 크기)
     createCharacterCard(recommendedCharacter, characterList);
@@ -962,13 +957,14 @@ function createCharacterCard(characterName, container) {
 
     // 셀카 버튼 추가
     const selfieButton = document.createElement('button');
-    selfieButton.textContent = '캐릭터 프로필 사진찍기 📸'; // 버튼 텍스트 변경
+    selfieButton.textContent = '셀카 찍기 📸';
     selfieButton.style.cssText = `
         position: absolute;
         bottom: 20px;
-        left: 20px; // 카드의 왼쪽 아래에 배치
+        left: 50%;
+        transform: translateX(-50%);
         padding: 10px 20px;
-        background-color: #FF5C2C; // 다시 시작 버튼과 동일한 색상
+        background-color: #FF5C2C;
         color: white;
         border: none;
         border-radius: 20px;
@@ -977,11 +973,6 @@ function createCharacterCard(characterName, container) {
         z-index: 20;
         transition: all 0.3s ease;
     `;
-
-// 카드와 버튼을 카드 컨테이너에 추가
-cardContainer.appendChild(card);
-cardContainer.appendChild(selfieButton);
-container.appendChild(cardContainer);
 
     // 셀카 기능 구현
     selfieButton.addEventListener('click', async (e) => {
@@ -1242,15 +1233,16 @@ container.appendChild(cardContainer);
 
                     // 이름 (주황색)
                     ctx.fillStyle = '#FF5C2C';
-                    ctx.fillText(globalUserName, canvasSize / 2 - ctx.measureText('님의').width / 2, firstLineY + 20);
+                    ctx.fillText(globalUserName, canvasSize / 2 - ctx.measureText('님의').width / 2, firstLineY);
 
                     // '님의' (흰색)
                     ctx.fillStyle = 'white';
-                    ctx.fillText('님의', canvasSize / 2 + nameWidth / 2, firstLineY + 20);
+                    ctx.fillText('님의', canvasSize / 2 + nameWidth / 2, firstLineY);
 
                     // 두 번째 줄
                     ctx.fillStyle = 'white';
-                    ctx.fillText('캐릭터 프로필 카드', canvasSize / 2, firstLineY + 60 + 20);
+                    ctx.fillText('캐릭터 프로필 카드', canvasSize / 2, firstLineY + 60);
+                    // ... existing code ...
 
                     // 카드 시작 x 위치 계산 (중앙 정렬)
                     const totalCardsWidth = (cardWidth * 2) + padding;
