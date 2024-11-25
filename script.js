@@ -170,7 +170,7 @@ const characters = {
         frameImage: './frames/장병태.png'
     },
 
-    '<엽기��인 그녀>, 그녀': {
+    '<엽기적인 그녀>, 그녀': {
         gender: 'female',
         tags: ['독립적인', '무던한', '시니컬한'],
         genres: { main: '코미디', sub: '로맨스' },
