@@ -258,9 +258,9 @@ const characters = {
         tags: ['독립적인', '무던한', '다정한'],
         genres: { main: '판타지', sub: '휴먼' },
         description: '젠틀함과 유머러스함이 완벽한 조화를 루고, 어른스럽고 의젓한 습까지 갖췄다. 모범생의 정석을 보여주는 고등학생.',
-        frontImage: './images/하은결f.png',
-        backImage: './images/하은결b.png',
-        frameImage: './frames/하은결.png'
+        frontImage: './images/haeungyeol_a.png',
+        backImage: './images/haeungyeol_b.png',
+        frameImage: './frames/haeungyeol.png'
     },
 
     '<선재 업고 튀어>, 임솔': {
@@ -268,9 +268,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '지', sub: '로맨스' },
         description: '귀엽고 사랑스러운 성격을 가졌다. 해사하게 웃을 때면 봄볕 같은 온기가 느껴지는 취준생.',
-        frontImage: './images/임솔f.png',
-        backImage: './images/임솔b.png',
-        frameImage: './frames/임솔.png'
+        frontImage: './images/limsol_a.png',
+        backImage: './images/limsol_b.png',
+        frameImage: './frames/limsol.png'
     },
 
     '<무빙>, 이강훈': {
@@ -278,9 +278,9 @@ const characters = {
         tags: ['독립적인', '무던한', '시니컬한'],
         genres: { main: '판타지', sub: '액션/모험' },
         description: '엄청난 신체 능력을 보유하였으나 이를 철저히 숨기면서 생활한다. 비상한 머리와 듯한 품행을 가진 등학생.',
-        frontImage: './images/이강훈f.png',
-        backImage: './images/이강훈b.png',
-        frameImage: './frames/이강훈.png'
+        frontImage: './images/leekanghoon_a.png',
+        backImage: './images/leekanghoon_b.png',
+        frameImage: './frames/leekanghoon_a.png'
     },
 
     '<월터의 상상은 현실이 된다>, 월터': {
@@ -288,9 +288,9 @@ const characters = {
         tags: ['독립적인', '무던한', '다정한'],
         genres: { main: '판타지', sub: '액션/모험' },
         description: '해본 것도, 가본 곳도, 특별한 일도 없다. 유일한 취미는 상상. 자신의 꿈은 접어둔 채 16년째 라이프 잡지사에서 일하고 있는 포토 에디터.',
-        frontImage: './images/월터f.png',
-        backImage: './images/월터b.png',
-        frameImage: './frames/월터.png'
+        frontImage: './images/walter_a.png',
+        backImage: './images/walter_b.png',
+        frameImage: './frames/walter.png'
     },
 
     '<해리포터>, 볼드모트': {
@@ -298,9 +298,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '판타지', sub: '액션/모험' },
         description: '마법사의 세계에서 강대한 마력과 야심, 많은 사람들을 휘어는 카리스마를 지녔다. 강력하지만 잔혹한 어둠의 마법사.',
-        frontImage: './images/볼드모트f.png',
-        backImage: './images/볼드모트b.png',
-        frameImage: './frames/볼드모트.png'
+        frontImage: './images/voldemort_a.png',
+        backImage: './images/voldemort_b.png',
+        frameImage: './frames/voldemort.png'
     },
 
     '<지옥에서 온 판사>, 강빛나': {
@@ -308,9 +308,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '타지', sub: '범죄/스릴러' },
         description: '명품과 사치를 매우 즐기는 시원시원한 성격. 법관으로서의 사명감과 책임감이 전혀 없는 판사.',
-        frontImage: './images/강빛나f.png',
-        backImage: './images/강빛나b.png',
-        frameImage: './frames/강빛나.png'
+        frontImage: './images/kangbitna_a.png',
+        backImage: './images/kangbitna_b.png',
+        frameImage: './frames/kangbitna_a.png'
     },
 
     '<낭만닥터 김사부>, 부용주': {
@@ -318,9 +318,9 @@ const characters = {
         tags: ['독립적인', '예민한', '다정한'],
         genres: { main: '직업물', sub: '휴먼' },
         description: '언제나 환자를 최우선으로 둔다. 강한 사명감을 가진 거산대학교병원 일반외과 전문의.',
-        frontImage: './images/부용주f.png',
-        backImage: './images/부용주b.png',
-        frameImage: './frames/부용주.png'
+        frontImage: './images/buyongjoo_a.png',
+        backImage: './images/buyongjoo_b.png',
+        frameImage: './frames/buyongjoo.png'
     },
 
     '<언내추럴>, 미스미 미코토': {
@@ -328,9 +328,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '직업물', sub: '휴먼' },
         description: '꼼꼼한 성격에 근성과 배짱있는 성격. 인간성도 갖춘 UDI 라보 소속 부검의.',
-        frontImage: './images/미스미f.png',
-        backImage: './images/미스미b.png',
-        frameImage: './frames/미스미.png'
+        frontImage: './images/misumi_a.png',
+        backImage: './images/misumi_b.png',
+        frameImage: './frames/misumi.png'
     },
 
     '<슈츠>, 마이크 로스': {
@@ -338,9 +338,9 @@ const characters = {
         tags: ['계지향적인', '무던한', '시니컬한'],
         genres: { main: '직업물', sub: '휴먼' },
         description: '한번 본 것은 통째로 암기해버릴 만큼 천재적인 두뇌를 가진 가짜 변사.',
-        frontImage: './images/마이���f.png',
-        backImage: './images/마이크b.png',
-        frameImage: './frames/마이크.png'
+        frontImage: './images/mike_a.png',
+        backImage: './images/mike_b.png',
+        frameImage: './frames/mike.png'
     },
 
     '<굿파트너>, 차은경': {
@@ -348,9 +348,9 @@ const characters = {
         tags: ['독적인', '예민한', '시니컬한'],
         genres: { main: '직업물', sub: '휴먼' },
         description: '독립적이고 예민하지만 한편으로는 따뜻한 마음을 가진 법무인 서울의 에이스 변호사.',
-        frontImage: './images/차은경f.png',
-        backImage: './images/차은경b.png',
-        frameImage: './frames/차은경.png'
+        frontImage: './images/chaeunkyung_a.png',
+        backImage: './images/chaeunkyung_b.png',
+        frameImage: './frameschaeunkyung.png'
     },
 
     '<비밀의 숲>, 황시목': {
@@ -358,9 +358,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시컬한'],
         genres: { main: '직업물', sub: '범죄/스릴러'},
         description: '뛰어난 기억력과 관찰력을 가졌지만, 감정 기능이 거의 상실된 춘천지방검찰청 원주지청 검사.',
-        frontImage: './images/황시목f.png',
-        backImage: './images/황시목b.png',
-        frameImage: './frames/황시목.png'
+        frontImage: './images/hwangsimok_a.png',
+        backImage: './images/hwangsimok_b.png',
+        frameImage: './frames/hwangsimok.png'
     },
 
     '<군검사 도베르만>, 차인': {
@@ -368,9 +368,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '직업물', sub: '액션/모험'},
         description: '거침없는 언변을 가졌으며 강자에 대한 두려움이 없다. 육군 4사단 위 군검사.',
-        frontImage: './images/차우인f.png',
-        backImage: './images/차우인b.png',
-        frameImage: './frames/차우인.png'
+        frontImage: './images/chawooin_a.png',
+        backImage: './images/chawooin_b.png',
+        frameImage: './frames/chawooin.png'
     },
 
     '<킹스맨: 시크릿 에이전트>, 해리 하트': {
@@ -378,9 +378,9 @@ const characters = {
         tags: ['독립적인', '예민', '다정한'],
         genres: { main: '액션/모험', sub: '코미디'},
         description: '강력한 카리스마를 가진 범세계적 비밀조직 킹스맨의 특수요원.',
-        frontImage: './images/해리f.png',
-        backImage: './images/해리b.png',
-        frameImage: './frames/해리.png'
+        frontImage: './images/harry_a.png',
+        backImage: './images/harry_b.png',
+        frameImage: './frames/harry.png'
     },
 
     '<헝거게임: 판엠의 불꽃>, 캣니스 에버딘': {
@@ -388,9 +388,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '액션/모험', sub: '판타지'},
         description: '사하는 사람을 위해 자신의 목숨을 아끼지 않는 전사.',
-        frontImage: './images/캣니스f.png',
-        backImage: './images/캣니스b.png',
-        frameImage: './frames/캣니스.png'
+        frontImage: './images/katniss_a.png',
+        backImage: './images/katniss_b.png',
+        frameImage: './frames/katniss.png'
     },
 
     '<드맥스: 분노의 도로>, 눅스': {
@@ -398,9 +398,9 @@ const characters = {
         tags: ['관계지향적인', '예민한', '다정한'],
         genres: { main: '액션/모험', sub: '판타지'},
         description: '순박하고 단순하다. 임모탄 조를 따르는 워보이이자 운전수.',
-        frontImage: './images/눅스f.png',
-        backImage: './images/눅스b.png',
-        frameImage: './frames/눅스.png'
+        frontImage: './images/nux_a.png',
+        backImage: './images/nux_b.png',
+        frameImage: './frames/nux.png'
     },
 
     '<킬 빌>, 베아트릭스 키도': {
@@ -408,9 +408,9 @@ const characters = {
         tags: ['관계지향적인', '예민한', '시니컬한'],
         genres: { main: '액션/모험', sub: '범죄/스릴러'},
         description: '대단한 근성과 끈기를 가졌다. 암살단 데들리 바이퍼스의 일원이었지만 평범한 삶을 원한다.',
-        frontImage: './images/베아트릭스f.png',
-        backImage: './images/베아트릭스b.png',
-        frameImage: './frames/베아트릭스.png'
+        frontImage: './images/beatrix_a.png',
+        backImage: './images/beatrix_b.png',
+        frameImage: './frames/beatrix.png'
     },
 
     '<데드풀>, 데드풀': {
@@ -418,9 +418,9 @@ const characters = {
         tags: ['독립적인', '무던한', '시니컬한'],
         genres: { main: '액션/모험', sub: '미디'},
         description: '독보적인 똘끼를 가진 안티히어로.',
-        frontImage: './images/데드풀f.png',
-        backImage: './images/데드풀b.png',
-        frameImage: './frames/데드풀.png'
+        frontImage: './images/dedapool_a.png',
+        backImage: './images/dedapool_b.png',
+        frameImage: './frames/dedapool.png'
     },
 
     '<마녀>, 구자윤': {
@@ -428,9 +428,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '액션/모험', sub: '판타지'},
         description: '차갑고 냉혹하며 무자비하다. 표정과 말투에 모든 상황을 쥐고 통제할 수 있다는 여유와 자신감이 묻어나는 고등학생.',
-        frontImage: './images/구자윤f.png',
-        backImage: './images/구자윤b.png',
-        frameImage: './frames/구자윤.png'
+        frontImage: './images/gujayoon_a.png',
+        backImage: './images/gujayoon_b.png',
+        frameImage: './frames/gujayoon.png'
     },
 
     '<악의 마음을 읽는 자들>, 송하영': {
@@ -438,9 +438,9 @@ const characters = {
         tags: ['독립적인', '예민한', '다정한'],
         genres: { main: '범죄/스릴러', sub: '직업물'},
         description: '인간에 대한 애정을 놓지 않으면도 냉정함까지 유지하는 프로파일러.',
-        frontImage: './images/송하영f.png',
-        backImage: './images/송하영b.png',
-        frameImage: './frames/송하영.png'
+        frontImage: './images/songhayoung_a.png',
+        backImage: './images/songhayoung_b.png',
+        frameImage: './frames/songhayoung.png'
     },
 
     '<D.P.>, 한호열': {
@@ -448,9 +448,9 @@ const characters = {
         tags: ['독립적인', '예민한', '다정한'],
         genres: { main: '범죄/스릴러', sub: '액션/모험'},
         description: '자유분방하고 능글맞은 성격의 군탈체포조 조장.',
-        frontImage: './images/한호열f.png',
-        backImage: './images/한호열b.png',
-        frameImage: './frames/한호열.png'
+        frontImage: './images/hanhoyeol_a.png',
+        backImage: './images/hanhoyeol_b.png',
+        frameImage: './frames/hanhoyeol.png'
     },
 
     '<비질란테>, 김지용': {
@@ -458,9 +458,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '범죄/스릴러', sub: '액션/모험'},
         description: '문무를 겸비한 초 엘리트로 많은 사람들에게 신뢰를 받다. 경찰이자 다크히어로.',
-        frontImage: './images/김지용f.png',
-        backImage: './images/김지용b.png',
-        frameImage: './frames/김지용.png'
+        frontImage: './images/giminyong_a.png',
+        backImage: './images/giminyong_b.png',
+        frameImage: './frames/giminyong.png'
     },
 
     '<친절한 금자씨>, 이금자': {
@@ -468,9 +468,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '시니컬한'],
         genres: { main: '범죄/스릴러', sub: '범죄/스릴러'},
         description: '자유분방하고 순진 소녀였지만 독기를 품게 된다.',
-        frontImage: './images/이금자f.png',
-        backImage: './images/이금자b.png',
-        frameImage: './frames/김지용.png'   
+        frontImage: './images/leegumja_a.png',
+        backImage: './images/leegumja_b.png',
+        frameImage: './frames/leegumja.png'   
     },
 
     '<위플래쉬>, 테런스 플레처': {
@@ -478,9 +478,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '범죄/스릴러', sub: '직업물'},
         description: '뛰어난 음악적 능력을 소유하고 있지만, 동시에 상당한 매드 아티스트. 온갖 신체적 및 언어적 폭력을 서슴치 않는 셰이퍼 음악학의 교수.',
-        frontImage: './images/플레처f.png',
-        backImage: './images/플레처b.png',
-        frameImage: './frames/플레처.png'
+        frontImage: './images/fletcher_a.png',
+        backImage: './images/fletcher_b.png',
+        frameImage: './frames/fletcher.png'
     },
 
     '<이코록 친밀한 배신자>, 장하빈': {
@@ -488,9 +488,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '범죄/스릴러', sub: '직업물'},
         description: '거짓말이 공부큼 쉬운 고등학생.',
-        frontImage: './images/장하빈f.png',
-        backImage: './images/장하빈b.png',
-        frameImage: './frames/장하빈.png'
+        frontImage: './images/janghabin_a.png',
+        backImage: './images/janghabin_b.png',
+        frameImage: './frames/janghabin.png'
     }
 
 
