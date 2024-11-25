@@ -30,7 +30,7 @@
         </div>
 
         <!-- 이름 입력 페이지 -->
-        <div id="nameInput" style="display: none; margin-top: -160px;">
+        <div id="nameInput" style="display: none; margin-top: -180px;">
             <div class="title"><h2>이름과 성별을 선택해주세요</h2></div>
             <input type="text" id="userName" placeholder="이름" required>
             
@@ -40,14 +40,14 @@
                 <div class="gender-button" onclick="toggleGender('male', this)">남자</div>
             </div>
             
-            <button class="next-step-button" onclick="submitName()" disabled disabled style="margin-top: 60px;">다음 단계</button>
+            <button class="next-step-button" onclick="submitName()" disabled style="margin-top: 60px;">다음 단계</button>
         </div>
 
 
 
 
      <!-- 성격 선택 페이지 -->
-    <div id="personalitySelection" style="display: none;">
+    <div id="personalitySelection" style="display: none; margin-top: -180px;">
     <h2>나의 성격과 가까운 키워드를 선택해주세요</h2>
 
     <!-- 독립적인/관계지향적인 선택 -->
@@ -84,7 +84,7 @@
         </button>
     </div>
 
-    <button class="next-step-button" onclick="nextStep('sensitivitySelection')" disabled>다음 단계</button>
+    <button class="next-step-button" onclick="nextStep('sensitivitySelection')" disabled style="margin-top: 60px;">다음 단계</button>
 </div>
 
 <!-- 예민함 선택 페이지 -->
