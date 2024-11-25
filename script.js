@@ -25,7 +25,7 @@ const characters = {
         tags: ['관계지향적인', '무던한', '디정한'],
         genres: { main: '로맨스', sub: '코미디' },
         description: '교과서보다는 하이틴 로맨스 소설에, 성적보다는 외모에 관심 많은 유쾌 발랄 낭랑 18세 소녀.',
-        frontImage: '/images/sungdeokseon_a.png',
+        frontImage: '/clab/images/sungdeokseon_a.png',
         backImage: '/images/sungdeokseon_b.png',
         frameImage: '/frames/sungdeokseon_f.png'
     },
