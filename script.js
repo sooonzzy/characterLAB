@@ -58,9 +58,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '로맨스', sub: '코미디' },
         description: '음악에 대한 확고한 철학과 고을 지녔다. 현실과 타협하 않고, 꿈과 신념을 지키는 뮤지션.',
-        frontImage: './images/세바스찬f.png',
-        backImage: './images/세바스찬b.png',
-        frameImage: './frames/세바스찬.png'
+        frontImage: './images/sebastian_a.png',
+        backImage: './images/sebastian_b.png',
+        frameImage: './frames/sebastian.png'
     },
 
     '<눈물의 여왕>, 홍해인': {
@@ -68,9 +68,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '로맨스', sub: '휴먼' },
         description: '극심한 외강내유에 츤데레 스타일이다. 인간미 없는 재벌 3세.',
-        frontImage: './images/홍해인f.png',
-        backImage: './images/홍해인b.png',
-        frameImage: './frames/홍해인.png'
+        frontImage: './images/honghaein_a.png',
+        backImage: './images/honghaein_b.png',
+        frameImage: './frames/honghaein.png'
     },
 
     '<상견니>, 리쯔웨이': {
@@ -78,9 +78,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '회/빙/환', sub: '로맨스' },
         description: '밝고 자연스러운 성격에 매력적인 미소를 가진 고등학생.',
-        frontImage: './images/리쯔웨이f.png',
-        backImage: './images/리쯔웨이b.png',
-        frameImage: './frames/리쯔웨이.png'
+        frontImage: './images/lizhiwei_a.png',
+        backImage: './images/lizhiwei_b.png',
+        frameImage: './frames/lizhiwei.png'
     },
 
     '<내 남편과 결혼해줘>, 강지원': {
@@ -88,9 +88,9 @@ const characters = {
         tags: ['독립적인', '무던한', '다정한'],
         genres: { main: '회/빙/환', sub: '로맨스' },
         description: '내성적이지만 걸크러쉬의 면모를 가다. 식품업계 대기업의 마케팅 1부 대.',
-        frontImage: './images/강지원f.png',
-        backImage: './images/강지원b.png',
-        frameImage: './frames/강지원.png'
+        frontImage: './images/kangjiwon_a.png',
+        backImage: './images/kangjiwon_b.png',
+        frameImage: './frames/kangjiwon.png'
     },
 
     '<재벌집 막내아들>, 진도준': {
@@ -98,9 +98,9 @@ const characters = {
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '회/빙/환', sub: '판타지' },
         description: '명석한 두뇌와 집요한 승부 근성을 가진 진양철 회장의 막내 손자.',
-        frontImage: './images/진도준f.png',
-        backImage: './images/진도준b.png',
-        frameImage: './frames/진도준.png'
+        frontImage: './images/jindojoon_a.png',
+        backImage: './images/jindojoon_b.png',
+        frameImage: './frames/jindojoon.png'
     },
 
     '<어게인 마이 라이프>, 김희아': {
@@ -108,9 +108,9 @@ const characters = {
         tags: ['독립적인', '무던한', '다정한'],
         genres: { main: '회/빙/환', sub: '액션/모험' },
         description: '해박한 지식, 깡이면 깡, 부족한 게 없다. 재벌가의 자식이지만 국밥을 즐겨 먹는 소탈한 성격까지 가진 천하그룹 경영전략본부장.',
-        frontImage: './images/김희아f.png',
-        backImage: './images/김희아b.png',
-        frameImage: './frames/김희아.png'
+        frontImage: './images/kimheea_a.png',
+        backImage: './images/kimheea_b.png',
+        frameImage: './frames/kimheea.png'
     },
 
     '<이번 생도 잘 부탁해>, 문서하': {
