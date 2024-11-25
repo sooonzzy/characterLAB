@@ -15,9 +15,9 @@ const characters = {
         tags: ['관계지향적인', '무던한', '다정한'],
         genres: { main: '로맨스', sub: '휴먼' },
         description: '마음을 듣고 가슴으로 느낄 수 있는 다정함을 지녔다. 도시락 가게를 하는 부모님을 돕는다.',
-        frontImage: '/images/tianke_a.png',
-        backImage: '/images/tianke_b.png',
-        frameImage: '/frames/tianke_f.png'
+        frontImage: './images/tianke_a.png',
+        backImage: './images/tianke_b.png',
+        frameImage: './frames/tianke_f.png'
     },
 
     '<응답하라 1988>, 성덕선': {
