@@ -613,9 +613,9 @@ function recommendCharacters() {
 
     // 캐릭터 이름을 별도의 div로 생성
     const characterNameDiv = document.createElement('div');
-    characterNameDiv.innerHTML = `<span style="font-weight: bold;">${recommendedCharacter}</span>`;
     characterNameDiv.textContent = recommendedCharacter;
     characterNameDiv.style.fontSize = '24px';
+    characterNameDiv.style.fontWdight = 'semi-bold';
     characterNameDiv.style.marginBottom = '5px';
     characterNameDiv.style.textAlign = 'center';
     resultContainer.insertBefore(characterNameDiv, characterList);
