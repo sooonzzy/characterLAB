@@ -884,7 +884,7 @@ function createCharacterCard(characterName, container) {
         // 회전이 끝나는 시점(2초)에 맞춰서 실행
         setTimeout(() => {
             card.style.transform = 'rotateY(0deg)';
-            card.style.transition = 'transform 0.2s ease-in-out';
+            card.style.transition = 'transform 0s ease-in-out';
             startWaveAnimation();
             
             // 회전이 끝난 직후 바로 안내 문구 표시
