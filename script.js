@@ -1236,28 +1236,6 @@ function createCharacterCard(characterName, container) {
                     ctx.fillStyle = '#000000';
                     ctx.fillRect(0, 0, canvasSize, canvasSize);
 
-                    // 제목 추가
-                    ctx.textAlign = 'center';
-
-                    // 첫 번째 줄 (이름)
-                    ctx.font = 'bold 48px Arial';
-                    const nameWidth = ctx.measureText(globalUserName).width;
-                    const nameX = (canvasSize - nameWidth) / 2;
-                    const firstLineY = 100;
-
-                    // 이름 (주황색)
-                    ctx.fillStyle = '#FF5C2C';
-                    ctx.fillText(globalUserName, canvasSize / 2 - ctx.measureText('님의').width / 2, firstLineY);
-
-                    // '님의' (흰색)
-                    ctx.fillStyle = 'white';
-                    ctx.fillText('님의', canvasSize / 2 + nameWidth / 2, firstLineY);
-
-                    // 두 번째 줄
-                    ctx.fillStyle = 'white';
-                    ctx.fillText('캐릭터 프로필 카드', canvasSize / 2, firstLineY + 60);
-                    // ... existing code ...
-
                     // 카��� 시작 x 위치 계산 (중앙 정렬)
                     const totalCardsWidth = (cardWidth * 2) + padding;
                     const startX = (canvasSize - totalCardsWidth) / 2;
@@ -1334,18 +1312,6 @@ function createCharacterCard(characterName, container) {
                 align-items: center;
                 gap: 5px;
             `;
-
-            // 첫 번째 줄 (이름 + 님의)
-            const firstLine = document.createElement('div');
-            firstLine.innerHTML = `<span style="color: #FF5C2C">${globalUserName}</span>님의`;
-
-            // 두 번째 줄
-            const secondLine = document.createElement('div');
-            secondLine.textContent = '캐릭터 프로필 카드';
-
-            titleContainer.appendChild(firstLine);
-            titleContainer.appendChild(secondLine);
-            cameraContainer.appendChild(titleContainer);
 
         } catch (err) {
             console.error('카메라 접근 오류:', err);
