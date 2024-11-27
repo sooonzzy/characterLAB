@@ -526,7 +526,7 @@ function findBestMatch(userChoices, selectedGenres) {
         
         let score = 0;
         
-        // 성격 태그 매칭 (각각 1점)
+        // 성격 �����그 매칭 (각각 1점)
         userChoices.forEach(choice => {
             if (info.tags.includes(choice)) {
                 score += 1;
@@ -800,7 +800,8 @@ function createCharacterCard(characterName, container) {
     li.style.perspective = '1000px';
     li.style.listStyle = 'none';
     li.style.display = 'flex';
-    li.style.justifyContent = 'center';
+    li.style.flexDirection = 'column'; // 세로 방향으로 정렬
+    li.style.alignItems = 'center'; // 중앙 정렬
 
     const card = document.createElement('div');
     card.className = 'character-card';
@@ -955,14 +956,13 @@ function createCharacterCard(characterName, container) {
         }
     });
 
+    li.appendChild(card); // 카드 추가
+
     // 셀카 버튼 추가
     const selfieButton = document.createElement('button');
     selfieButton.textContent = '셀카 찍기 📸';
     selfieButton.style.cssText = `
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
+        margin-top: 10px; // 카드와 버튼 사이의 간격
         padding: 10px 20px;
         background-color: #FF5C2C;
         color: white;
@@ -1244,7 +1244,7 @@ function createCharacterCard(characterName, container) {
                     ctx.fillText('캐릭터 프로필 카드', canvasSize / 2, firstLineY + 60);
                     // ... existing code ...
 
-                    // 카드 시작 x 위치 계산 (중앙 정렬)
+                    // 카��� 시작 x 위치 계산 (중앙 정렬)
                     const totalCardsWidth = (cardWidth * 2) + padding;
                     const startX = (canvasSize - totalCardsWidth) / 2;
                     const startY = (canvasSize - cardHeight) / 2;
@@ -1343,10 +1343,9 @@ function createCharacterCard(characterName, container) {
         }
     });
 
-    card.appendChild(selfieButton);
+    li.appendChild(selfieButton); // 버튼을 카드 아래에 추가
 
-    li.appendChild(card);
-    container.appendChild(li);
+    container.appendChild(li); // 리스트 항목을 컨테이너에 추가
 
     // 1초 후에 애니메이션 시작
     setTimeout(startAnimations, 1000);
