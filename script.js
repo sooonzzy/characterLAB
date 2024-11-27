@@ -967,7 +967,7 @@ function createCharacterCard(characterName, container) {
         background-color: #FF5C2C;
         color: white;
         border: none;
-        border-radius: 20px;
+        border-radius: 18px;
         cursor: pointer;
         font-weight: bold;
         z-index: 20;
