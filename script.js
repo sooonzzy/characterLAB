@@ -173,7 +173,7 @@ const characters = {
         frameImage: './frames/jangbyuntae.png'
     },
 
-    '<엽기적인 그녀>, 그녀': {
+    '<엽기인 녀>, 그녀': {
         gender: 'female',
         tags: ['독립적인', '무던한', '시니컬한'],
         genres: { main: '코미디', sub: '로맨스' },
@@ -393,7 +393,7 @@ const characters = {
         frameImage: './frames/katniss.png'
     },
 
-    '<매드맥스: 분노의 도로>, 눅스': {
+    '<드맥스: 분노의 도로>, 눅스': {
         gender: 'male',
         tags: ['관계지향적인', '예민한', '다정한'],
         genres: { main: '액션/모험', sub: '판타지'},
@@ -483,7 +483,7 @@ const characters = {
         frameImage: './frames/fletcher.png'
     },
 
-    '<이토록 친밀한 배신자>, 장하빈': {
+    '<이코록 친밀한 배신자>, 장하빈': {
         gender: 'female',
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '범죄/스릴러', sub: '직업물'},
@@ -526,7 +526,7 @@ function findBestMatch(userChoices, selectedGenres) {
         
         let score = 0;
         
-        // 성격 �����그 매칭 (각각 1점)
+        // 성격 태그 매칭 (각각 1점)
         userChoices.forEach(choice => {
             if (info.tags.includes(choice)) {
                 score += 1;
@@ -609,7 +609,7 @@ function recommendCharacters() {
     // 제목에 사용자 이름 색상 적용
     const title = document.querySelector('#result h2');
     title.innerHTML = `<span style="color: #FF5C2C">${userName}</span>님은`;
-    title.style.marginBottom = '10px';
+    //title.style.marginBottom = '10px';
 
     // 캐릭터 이름을 별도의 div로 생성
     const characterNameDiv = document.createElement('div');
@@ -800,8 +800,7 @@ function createCharacterCard(characterName, container) {
     li.style.perspective = '1000px';
     li.style.listStyle = 'none';
     li.style.display = 'flex';
-    li.style.flexDirection = 'column'; // 세로 방향으로 정렬
-    li.style.alignItems = 'center'; // 중앙 정렬
+    li.style.justifyContent = 'center';
 
     const card = document.createElement('div');
     card.className = 'character-card';
@@ -956,13 +955,14 @@ function createCharacterCard(characterName, container) {
         }
     });
 
-    li.appendChild(card); // 카드 추가
-
     // 셀카 버튼 추가
     const selfieButton = document.createElement('button');
-    selfieButton.textContent = '나의 캐릭터 프로필 촬영하기 📸';
+    selfieButton.textContent = '셀카 찍기 📸';
     selfieButton.style.cssText = `
-        margin-top: 10px; // 카드와 버튼 사이의 간격
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
         padding: 10px 20px;
         background-color: #FF5C2C;
         color: white;
@@ -1244,7 +1244,7 @@ function createCharacterCard(characterName, container) {
                     ctx.fillText('캐릭터 프로필 카드', canvasSize / 2, firstLineY + 60);
                     // ... existing code ...
 
-                    // 카��� 시작 x 위치 계산 (중앙 정렬)
+                    // 카드 시작 x 위치 계산 (중앙 정렬)
                     const totalCardsWidth = (cardWidth * 2) + padding;
                     const startX = (canvasSize - totalCardsWidth) / 2;
                     const startY = (canvasSize - cardHeight) / 2;
@@ -1343,9 +1343,10 @@ function createCharacterCard(characterName, container) {
         }
     });
 
-    li.appendChild(selfieButton); // 버튼을 카드 아래에 추가
+    card.appendChild(selfieButton);
 
-    container.appendChild(li); // 리스트 항목을 컨테이너에 추가
+    li.appendChild(card);
+    container.appendChild(li);
 
     // 1초 후에 애니메이션 시작
     setTimeout(startAnimations, 1000);
