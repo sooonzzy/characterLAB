@@ -603,7 +603,7 @@ function recommendCharacters() {
     resultContainer.style.display = 'flex';
     resultContainer.style.flexDirection = 'column';
     resultContainer.style.alignItems = 'center';
-    resultContainer.style.gap = '20px';
+    resultContainer.style.gap = '10px';
     resultContainer.style.padding = '20px';
 
     // 제목에 사용자 이름 색상 적용
