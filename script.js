@@ -960,7 +960,7 @@ function createCharacterCard(characterName, container) {
 
     // 셀카 버튼 추가
     const selfieButton = document.createElement('button');
-    selfieButton.textContent = '셀카 찍기 📸';
+    selfieButton.textContent = '나의 캐릭터 프로필 촬영하기 📸';
     selfieButton.style.cssText = `
         margin-top: 10px; // 카드와 버튼 사이의 간격
         padding: 10px 20px;
