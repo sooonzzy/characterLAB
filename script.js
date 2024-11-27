@@ -959,6 +959,10 @@ function createCharacterCard(characterName, container) {
     const selfieButton = document.createElement('button');
     selfieButton.textContent = '셀카 찍기 📸';
     selfieButton.style.cssText = `
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
         padding: 10px 20px;
         background-color: #FF5C2C;
         color: white;
@@ -969,10 +973,6 @@ function createCharacterCard(characterName, container) {
         z-index: 20;
         transition: all 0.3s ease;
     `;
-
-    // 셀카 버튼을 카드 아래에 추가
-    li.appendChild(card); // 카드 추가
-    li.appendChild(selfieButton); // 버튼을 카드 아래에 배치
 
     // 셀카 기능 구현
     selfieButton.addEventListener('click', async (e) => {
