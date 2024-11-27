@@ -173,7 +173,7 @@ const characters = {
         frameImage: './frames/jangbyuntae.png'
     },
 
-    '<엽기인 녀>, 그녀': {
+    '<엽기적인 그녀>, 그녀': {
         gender: 'female',
         tags: ['독립적인', '무던한', '시니컬한'],
         genres: { main: '코미디', sub: '로맨스' },
@@ -393,7 +393,7 @@ const characters = {
         frameImage: './frames/katniss.png'
     },
 
-    '<드맥스: 분노의 도로>, 눅스': {
+    '<매드맥스: 분노의 도로>, 눅스': {
         gender: 'male',
         tags: ['관계지향적인', '예민한', '다정한'],
         genres: { main: '액션/모험', sub: '판타지'},
@@ -483,7 +483,7 @@ const characters = {
         frameImage: './frames/fletcher.png'
     },
 
-    '<이코록 친밀한 배신자>, 장하빈': {
+    '<이토록 친밀한 배신자>, 장하빈': {
         gender: 'female',
         tags: ['독립적인', '예민한', '시니컬한'],
         genres: { main: '범죄/스릴러', sub: '직업물'},
