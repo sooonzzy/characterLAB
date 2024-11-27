@@ -606,6 +606,10 @@ function recommendCharacters() {
     resultContainer.style.gap = '20px';
     resultContainer.style.padding = '20px';
 
+    // 캐릭터 이름과 카드 사이의 간격을 위한 div 추가
+    const characterNameDiv = document.createElement('div');
+    characterNameDiv.style.marginBottom = '10px'; // 캐릭터 이름과 카드 사이의 간격
+
     // 제목에 사용자 이름 색상 적용
     const title = document.querySelector('#result h2');
     title.innerHTML = `<span style="color: #FF5C2C">${userName}</span>님은`;
