@@ -619,6 +619,9 @@ function recommendCharacters() {
     characterNameDiv.style.textAlign = 'center';
     resultContainer.insertBefore(characterNameDiv, characterList);
 
+    // characterList의 marginTop을 줄임
+    characterList.style.marginTop = '10px'; // 간격을 줄임
+
     // 3D 카드 생성 (80% 크기)
     createCharacterCard(recommendedCharacter, characterList);
 
