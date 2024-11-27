@@ -608,6 +608,7 @@ function recommendCharacters() {
 
     // 제목과 캐릭터 이름을 하나의 div로 묶기
     const titleContainer = document.createElement('div'); // 새로운 div 생성
+    titleContainer.style.textAlign = 'center'; // 중앙 정렬
 
     // 제목에 사용자 이름 색상 적용
     const title = document.createElement('div'); // h2에서 div로 변경
@@ -619,12 +620,10 @@ function recommendCharacters() {
     characterNameDiv.textContent = `${recommendedCharacter.split(', ')[0]}의 ${recommendedCharacter.split(', ')[1]}`;
     characterNameDiv.style.fontSize = '24px';
     characterNameDiv.style.marginBottom = '30px';
-    characterNameDiv.style.textAlign = 'center';
-
+    
     // 두 요소를 하나의 div에 추가
     titleContainer.appendChild(title);
     titleContainer.appendChild(characterNameDiv);
-    titleContainer.style.textAlign = 'center'; // 중앙 정렬
 
     resultContainer.insertBefore(titleContainer, characterList); // 결과 컨테이너에 추가
 
