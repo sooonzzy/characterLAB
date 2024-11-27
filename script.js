@@ -615,7 +615,7 @@ function recommendCharacters() {
     const characterNameDiv = document.createElement('div');
     characterNameDiv.textContent = `${recommendedCharacter.split(', ')[0]}의 ${recommendedCharacter.split(', ')[1]}`;
     characterNameDiv.style.fontSize = '24px';
-    characterNameDiv.style.marginBottom = '30px';
+    characterNameDiv.style.marginBottom = '10px';
     characterNameDiv.style.textAlign = 'center';
     resultContainer.insertBefore(characterNameDiv, characterList);
 
