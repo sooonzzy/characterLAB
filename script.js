@@ -625,7 +625,7 @@ function recommendCharacters() {
     const characterNameDiv = document.createElement('div');
     characterNameDiv.textContent = `${recommendedCharacter.split(', ')[0]}의 ${recommendedCharacter.split(', ')[1]}`;
     characterNameDiv.style.fontSize = '24px';
-    characterNameDiv.style.marginBottom = '30px';
+    //characterNameDiv.style.marginBottom = '30px';
     
     // 두 요소를 하나의 div에 추가
     titleContainer.appendChild(title);
