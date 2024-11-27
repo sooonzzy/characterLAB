@@ -606,6 +606,12 @@ function recommendCharacters() {
     resultContainer.style.gap = '20px';
     resultContainer.style.padding = '20px';
 
+    // 기존 h2 요소 제거
+    const existingTitle = document.querySelector('#result h2');
+    if (existingTitle) {
+        existingTitle.remove(); // 기존 h2 요소 삭제
+    }
+
     // 제목과 캐릭터 이름을 하나의 div로 묶기
     const titleContainer = document.createElement('div'); // 새로운 div 생성
     titleContainer.style.textAlign = 'center'; // 중앙 정렬
