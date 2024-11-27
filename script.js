@@ -618,8 +618,8 @@ function recommendCharacters() {
 
     // 제목에 사용자 이름 색상 적용
     const title = document.createElement('div'); // h2에서 div로 변경
-    title.innerHTML = `<span style="color: #FF5C2C">${userName}</span>님은`;
-    title.style.marginBottom = '5px'; // 줄 간격 줄임
+    title.innerHTML = `<span style="color: #FF5C2C; font-size: 18px;">${userName}</span>님은`;
+    title.style.marginBottom = '10px'; // 줄 간격 줄임
 
     // 캐릭터 이름을 별도의 div로 생성
     const characterNameDiv = document.createElement('div');
