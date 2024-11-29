@@ -337,7 +337,7 @@ const characters = {
         gender: 'male',
         tags: ['계지향적인', '무던한', '시니컬한'],
         genres: { main: '직업물', sub: '휴먼' },
-        description: '한번 본 것은 통째로 암기해버릴 만큼 천재적인 두뇌를 가진 가짜 변사.',
+        description: '한번 본 것은 통째로 암기해버릴 만큼 천재적인 두뇌를 가진 가짜 변������.',
         frontImage: './images/mike_a.png',
         backImage: './images/mike_b.png',
         frameImage: './frames/mike.png'
@@ -845,8 +845,8 @@ function createCharacterCard(characterName, container) {
     cardFront.style.width = '100%';
     cardFront.style.height = '100%';
     cardFront.style.backfaceVisibility = 'hidden';
-    cardFront.style.borderRadius = '24px';
-    cardFront.style.overflow = 'hidden';
+    cardFront.style.borderRadius = '24px'; // 프레임과 동일한 border-radius 적용
+    cardFront.style.overflow = 'hidden'; // 이미지가 프레임을 넘지 않도록 설정
 
     const frontImg = document.createElement('img');
     frontImg.src = characters[characterName].frontImage || characters[characterName].image;
@@ -854,7 +854,7 @@ function createCharacterCard(characterName, container) {
     frontImg.style.width = '100%';
     frontImg.style.height = '100%';
     frontImg.style.objectFit = 'cover';
-    frontImg.style.borderRadius = '24px';
+    frontImg.style.borderRadius = '24px'; // 프레임과 동일한 border-radius 적용
 
     // 뒷면 생성
     const cardBack = document.createElement('div');
@@ -1247,7 +1247,7 @@ function createCharacterCard(characterName, container) {
                     ctx.fillStyle = '#000000';
                     ctx.fillRect(0, 0, canvasSize, canvasSize);
 
-                    // 카��� 시작 x 위치 계산 (중앙 정렬)
+                    // 카 시작 x 위치 계산 (중앙 정렬)
                     const totalCardsWidth = (cardWidth * 2) + padding;
                     const startX = (canvasSize - totalCardsWidth) / 2;
                     const startY = (canvasSize - cardHeight) / 2;
@@ -1278,7 +1278,7 @@ function createCharacterCard(characterName, container) {
                         await navigator.share({
                             files: [file],
                             title: '캐릭터 프로필 카드',
-                            text: '나와 닮은 캐릭터의 프로필 카드입니다!'
+                            text: '와 닮은 캐터의 프로필 카드입니다!'
                         });
                     } else {
                         const downloadLink = document.createElement('a');
