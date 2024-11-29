@@ -649,17 +649,28 @@ function createCardFront(characterName, width, height) {
     cardFront.style.width = '100%';
     cardFront.style.height = '100%';
     cardFront.style.backfaceVisibility = 'hidden';
+    cardFront.style.borderRadius = '24px'; // 프레임과 동일한 border-radius 적용
+    cardFront.style.overflow = 'hidden'; // 이미지가 프레임을 넘지 않도록 설정
 
-    const img = document.createElement('img');
-    // frontImage가 있으면 사용하고, 없으면 일반 image 용
-    img.src = characters[characterName].frontImage || characters[characterName].image;
-    img.alt = characterName;
-    img.style.width = '100%';
-    img.style.height = '100%';
-    img.style.objectFit = 'cover';
-    img.style.borderRadius = '10px';
+    const frontImg = document.createElement('img');
+    frontImg.src = characters[characterName].frontImage || characters[characterName].image;
+    frontImg.alt = characterName;
+    frontImg.style.width = '100%';
+    frontImg.style.height = '100%';
+    frontImg.style.objectFit = 'cover';
+    frontImg.style.borderRadius = '24px'; // 프레임과 동일한 border-radius 적용
 
-    cardFront.appendChild(img);
+    // 사진 찍는 부분 수정
+    const captureImage = document.createElement('canvas');
+    captureImage.width = cardFront.offsetWidth;
+    captureImage.height = cardFront.offsetHeight;
+    const ctx = captureImage.getContext('2d');
+    ctx.drawImage(frontImg, 0, 0, captureImage.width, captureImage.height);
+    ctx.globalCompositeOperation = 'destination-in'; // r값 적용
+    ctx.fillStyle = 'rgba(255, 255, 255, 1)';
+    ctx.fillRect(0, 0, captureImage.width, captureImage.height);
+
+    cardFront.appendChild(frontImg);
     return cardFront;
 }
 
