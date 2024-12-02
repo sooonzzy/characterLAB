@@ -280,7 +280,7 @@ const characters = {
         description: '엄청난 신체 능력을 보유하였으나 이를 철저히 숨기면서 생활한다. 비상한 머리와 듯한 품행을 가진 등학생.',
         frontImage: './images/leekanghoon_a.png',
         backImage: './images/leekanghoon_b.png',
-        frameImage: './frames/leekanghoon_a.png'
+        frameImage: './frames/leekanghoon.png'
     },
 
     '<월터의 상상은 현실이 된다>, 월터': {
@@ -310,7 +310,7 @@ const characters = {
         description: '명품과 사치를 매우 즐기는 시원시원한 성격. 법관으로서의 사명감과 책임감이 전혀 없는 판사.',
         frontImage: './images/kangbitna_a.png',
         backImage: './images/kangbitna_b.png',
-        frameImage: './frames/kangbitna_a.png'
+        frameImage: './frames/kangbitna.png'
     },
 
     '<낭만닥터 김사부>, 부용주': {
@@ -337,7 +337,7 @@ const characters = {
         gender: 'male',
         tags: ['계지향적인', '무던한', '시니컬한'],
         genres: { main: '직업물', sub: '휴먼' },
-        description: '한번 본 것은 통째로 암기해버릴 만큼 천재적인 두뇌를 가진 가짜 변������.',
+        description: '한번 본 것은 통째로 암기해버릴 만큼 천재적인 두뇌를 가진 가짜 변호사.',
         frontImage: './images/mike_a.png',
         backImage: './images/mike_b.png',
         frameImage: './frames/mike.png'
@@ -416,7 +416,7 @@ const characters = {
     '<데드풀>, 데드풀': {
         gender: 'male',
         tags: ['독립적인', '무던한', '시니컬한'],
-        genres: { main: '액션/모험', sub: '미디'},
+        genres: { main: '액션/모험', sub: '코미디'},
         description: '독보적인 똘끼를 가진 안티히어로.',
         frontImage: './images/dedapool_a.png',
         backImage: './images/dedapool_b.png',
